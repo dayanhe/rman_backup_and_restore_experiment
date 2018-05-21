@@ -20,7 +20,7 @@ Entire rman restore process include five shell scripts and introduction per scri
 
 -- 4. scp_log_file_to_target.sh                     ==> ( scp file "/tmp/source_oracle_dbinfo.log" to target host ) 
 
--- 5. rman_restore_and_recover_to_target_oracle.sh  ==> ( with rman restore and recover oracle from target host )
+-- 5. rman_restore_and_recover_to_target_oracle.sh  ==> ( use rman restore and recover oracle to target host )
 
 -----------------------------
 Execute shell script process:
