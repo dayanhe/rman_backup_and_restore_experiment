@@ -15,7 +15,7 @@
 -- 2. ssh_mutual_trust_linux_for_target.sh          ==> ( 在目标主机上设置源主机的SSH互信功能 )
 -- 3. collect_info_from_source_oracle.sh            ==> ( 从源主机收集一些信息 )
 -- 4. scp_log_file_to_target.sh                     ==> ( 远程复制文件"/tmp/source_oracle_dbinfo.log"到目标主机 )
--- 5. rman_restore_and_recover_to_target_oracle.sh  ==> ( 从目标主机用RMAN还原和恢复Oracle )
+-- 5. rman_restore_and_recover_to_target_oracle.sh  ==> ( 用RMAN还原和恢复Oracle到目标主机 )
 
 ------------------
 执行SHELL脚本的流程
