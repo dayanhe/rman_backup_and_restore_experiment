@@ -37,7 +37,7 @@ export SCP=`which scp`
 
 export LOCAL_LOGFILE='/tmp/source_oracle_dbinfo.log'
 
-# Define Remote Host,For example,REMOTE_HOST='orcl1',According to your situation to set.
+# Define Remote Host, For example, REMOTE_HOST='orcl1', According to your situation to set.
 export REMOTE_HOST='orcl13'
 
 # +-----------------------------------------------------------------------+
