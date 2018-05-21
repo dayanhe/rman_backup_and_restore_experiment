@@ -1,16 +1,14 @@
 Summary
 -------
 
-This is the README_EN.txt file for doing rman backup and recovery experiment on
-oracle database server.There are two oracle database server,one is source
-oracle database,it's production environment;another is target oracle
-database,and it has only insalled linux and oracle database software,we need
-to restore and recover a oracle database with source oracle's rman
-backupsets.
+This is the "README_EN.TXT" file for doing rman backup and recovery experiment on
+oracle database server. There are two oracle database server, one is source
+oracle database and it's production environment; another is target oracle
+database and it has only insalled linux and oracle database software, we need
+to restore and recover a oracle database with source oracle's rman backupsets.
 
-Entire rman restore process include five shell scripts and introduction per
-script:
----------------------------------------------------------------------------
+Entire rman restore process include five shell scripts and introduction per script:
+----------------------------------------------------------------------------------------------------------------------
 
 -- 1. ssh_mutual_trust_linux_for_source.sh          ==> ( set target host's ssh mutual trust function on source host )
 
@@ -22,19 +20,22 @@ script:
 
 -- 5. rman_restore_and_recover_to_target_oracle.sh  ==> ( with rman restore and recover oracle from target host )
 
-Execute shell script process
-----------------------------
+---------------------------------------------------------------------------------------------------------------------
 
-All of shell scripts is executed on oracle user.
+Execute shell script process:
+------------------------------------------------------------------------------------------
 
-First,set ssh mutual trust function between source oracle database and target
-oracle database,and execute script "ssh_mutual_trust_linux_for_source.sh" in
-source host and execute script "ssh_mutual_trust_linux_for_target.sh" in target
-host.
+All of shell scripts are executed on oracle user.
 
-Second,execute script "collect_info_from_source_oracle.sh" for collect some information
-on source host,and then execute script "scp_log_file_to_target.sh",scp file 
+Firstly, set ssh mutual trust function between source oracle database and target
+oracle database, and execute script "ssh_mutual_trust_linux_for_source.sh" in source host 
+and execute script "ssh_mutual_trust_linux_for_target.sh" in target host.
+
+Secondly, execute script "collect_info_from_source_oracle.sh" for collect some information
+on source host,and then execute script "scp_log_file_to_target.sh", scp file 
 "/tmp/source_oracle_dbinfo.log" to dir "/tmp" of target host.
 
-Finally,execute script "rman_restore_and_recover_to_target_oracle.sh" on target
-host for restoreing and recovering oracle database.
+Finally, execute script "rman_restore_and_recover_to_target_oracle.sh" on target host for 
+restoreing and recovering oracle database.
+
+------------------------------------------------------------------------------------------
