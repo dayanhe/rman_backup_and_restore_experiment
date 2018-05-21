@@ -24,16 +24,16 @@
 # |                                                                       |
 # | PURPOSE    : This bash script file used to collect some information   |
 # |                                                                       |
-# |              from local oracle database server,and save them to a log |
+# |              from local oracle database server, and save them to a    |
 # |                                                                       |
-# |              file.                                                    |
+# |              log file.                                                |
 # |                                                                       |
 # |                                                                       |
 # | PARAMETERS : None.                                                    |
 # |                                                                       |
 # | MODIFIED   : 03/10/2017 (mm/dd/yyyy)                                  |
 # |                                                                       |
-# | NOTE       : As with any code,ensure to test this script in a         |
+# | NOTE       : As with any code, ensure to test this script in a        |
 # |                                                                       |
 # |              development environment before attempting to run it in   |
 # |                                                                       |
