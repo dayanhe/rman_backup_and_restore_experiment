@@ -40,7 +40,7 @@
 # |                                                                       |
 # | MODIFIED   : 03/10/2017 (mm/dd/yyyy)                                  |
 # |                                                                       |
-# | NOTE       : As with any code,ensure to use this script in a test     |
+# | NOTE       : As with any code, ensure to use this script in a test    |
 # |                                                                       |
 # |              environment only.                                        |
 # |                                                                       |
