@@ -12,15 +12,15 @@
 # | File       : ssh_mutual_trust_linux_for_source.sh                     |
 # | CLASS      : LINUX Bourne-Again Shell Scripts                         |
 # | PURPOSE    : This bash script file used to set ssh mutual trust       |
-# |              between source and target linux server.Therefore,every   |
-# |              operation between two,such as ssh and scp,have no        |
+# |              between source and target linux server. Therefore, every |
+# |              operation between two, such as ssh and scp, have no      |
 # |              password to interaction.                                 |
 # |                                                                       |
 # | PARAMETERS : None.                                                    |
 # |                                                                       |
 # | MODIFIED   : 03/10/2017 (mm/dd/yyyy)                                  |
 # |                                                                       |
-# | NOTE       : As with any code,ensure to test this script in a         |
+# | NOTE       : As with any code, ensure to test this script in a        |
 # |              development environment before attempting to run it in   |
 # |              production.                                              |
 # +-----------------------------------------------------------------------+
@@ -45,10 +45,10 @@ export TEE=`which tee`
 
 export LOCAL_HOST=`$HOSTNAME`
 
-# Define Remote Host,For example,REMOTE_HOST='orcl1',According to your situation to set.
-# At same time,Please add the host name and IP address of the remote host to hosts file
+# Define Remote Host, For example, REMOTE_HOST='orcl1', According to your situation to set.
+# At same time, Please add the host name and IP address of the remote host to hosts file
 # that is located in etc subdir of '/' directory in root user.
-# For example,as follows:
+# For example, as follows:
 # 127.0.0.1     localhost       localhost.localdomain
 # ::1           localhost6      localhost6.localdomain6
 # 172.16.10.11  orac11
