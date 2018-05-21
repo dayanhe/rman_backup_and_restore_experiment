@@ -1,3 +1,4 @@
+-------
 Summary
 -------
 
@@ -7,8 +8,9 @@ oracle database and it's production environment; another is target oracle
 database and it has only insalled linux and oracle database software, we need
 to restore and recover a oracle database with source oracle's rman backupsets.
 
+-----------------------------------------------------------------------------------
 Entire rman restore process include five shell scripts and introduction per script:
-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 
 -- 1. ssh_mutual_trust_linux_for_source.sh          ==> ( set target host's ssh mutual trust function on source host )
 
@@ -20,10 +22,9 @@ Entire rman restore process include five shell scripts and introduction per scri
 
 -- 5. rman_restore_and_recover_to_target_oracle.sh  ==> ( with rman restore and recover oracle from target host )
 
----------------------------------------------------------------------------------------------------------------------
-
+-----------------------------
 Execute shell script process:
-------------------------------------------------------------------------------------------
+-----------------------------
 
 All of shell scripts are executed on oracle user.
 
@@ -37,5 +38,3 @@ on source host,and then execute script "scp_log_file_to_target.sh", scp file
 
 Finally, execute script "rman_restore_and_recover_to_target_oracle.sh" on target host for 
 restoreing and recovering oracle database.
-
-------------------------------------------------------------------------------------------
