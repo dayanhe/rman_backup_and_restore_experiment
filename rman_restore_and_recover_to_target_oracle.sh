@@ -28,11 +28,11 @@
 # |                                                                       |
 # |              of remote and used to do a regular backup recovery       | 
 # |                                                                       |
-# |              experiment,the premise is that there is a need to have a |
+# |              experiment, the premise is that there is a need to have  |
 # |                                                                       |
-# |              set of oracle database software installed and same to    |
+# |              a set of oracle database software installed and same to  |
 # |                                                                       |
-# |              version of remote oracle database server,same to         |
+# |              version of remote oracle database server, same to        |
 # |                                                                       |
 # |              operation system category and version.                   |
 # |                                                                       |
